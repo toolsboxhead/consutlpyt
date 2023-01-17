@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello Word!!2</h1>
+    
+    <form action="./listcons" method="POST">
+        
+        <label > Nombre :</label>
+        <input type="text" name="user">
+        <input type="submit" value="click here">
+    </form>
+        <section>
+            
+        <nav class="data_cons" id="data:cons">
+            <li>
+                <ul> 
+                    <input type="submit" value="Relatório" class="btn_relatorio" id="btn_relatorio" disabled="">
+                    <input type="submit" value="Tarta" class="btn_torta" id="btn_torta" disabled="">
+                    <input type="submit" value="Pizza" class="btn_pizza" id="btn_pizza" disabled="">
+
+                    <li><a href="#" onclick="loadDataText()">Datos Consultores</a></li>
+                    <li><a href="#" onclick="loadDataGraph()">Grafico consultores</a></li>
+
+                </ul>
+            </li>
+        </nav>
+        <select name="consults" id="list-cons" size="8" multiple>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+         </select>
+        </section>
+    
+
+    <section class="link_data" id="link_data">
+
+    </section>
+    
+</body>
+<script src ="js/managedom" ></script>
+</html>
+

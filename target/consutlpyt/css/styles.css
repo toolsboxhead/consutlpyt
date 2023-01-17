@@ -1,0 +1,221 @@
+:root {
+  --color1: rgb(219, 144, 0.5);
+  --color2: rgba(23, 180, 83, 0.877);
+  --fondo: #f2f2f2;
+  --titulos: 33px;
+  --subtitulos: 10px;
+  --margenes: 60px;
+  --espacios: 10px;
+  --space-ini: 20px;
+  --espacios-contenido: 45px;
+  --link-1: #d65472;
+  --link-2: #37c5f0;
+  --link-3: gold;
+  --text: #18272f;
+  --counter: #30b67d;
+  --fondoimg: url(img/teclado.jpg);
+}
+/*
+* {
+    margin: 0;
+  padding: 0; 
+  box-sizing: border-box; 
+}*/
+
+html,
+body {
+  font-size: 14px;
+  /* background-color: #f5f6f7; */
+  background: var(--fondo);
+}
+
+.cont-all {
+  margin: 2px 15px;
+  width: 100%;
+}
+
+/* SECCION DE FILTROS */
+.cont {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  background: #39404c;
+  width: 95%;
+  height: 250px;
+}
+.cont_fill {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  max-height: 800px;
+  margin: 10px 0px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  /* background: #bdbfcb; */
+}
+
+.bxlis-all2 {
+  width: 350px;
+  height: 80%;
+}
+
+.list-cons {
+  align-self: center;
+  justify-content: center;
+  margin: 10px 0px;
+  width: 350px;
+  height: 90%;
+  padding: 20px;
+  width: 100%;
+}
+/* lista de seleccion */
+.bxlis {
+  width: 350px;
+  height: 90%;
+}
+.list {
+  align-self: center;
+  justify-content: center;
+  width: 350px;
+  height: 100%;
+  width: 100%;
+}
+/*  botones Mover consultores*/
+.btn-addsub {
+  margin: 15px 20px;
+  width: 5vw;
+  border: 0.3px, whitesmoke;
+
+  /*background: #39404c;*/
+}
+.btn-addsub > button {
+  margin: 5px 5px;
+  border: 0.2px solid;
+  color: rgb(20, 20, 20);
+  font-size: 15px;
+  line-height: 15px;
+  padding: 4px;
+  border-radius: 4px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(28, 110, 164) 0%,
+    rgb(35, 136, 203) 50%,
+    rgb(20, 78, 117) 100%
+  );
+  box-shadow: rgba(0, 0, 0, 0.31) 5px 4px 11px 5px;
+  border: 2px solid rgb(28, 110, 164);
+  display: inline-block;
+}
+
+.btn-addsub > button:hover {
+  background: #1c6ea4;
+}
+
+@media screen and (max-width: 480px) {
+  .cont-all {
+    margin-top: 0px;
+  }
+}
+
+.tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lab-cons label {
+  width: 75px;
+  margin: auto;
+  font-size: 12px;
+}
+/************Botones de Acciones**************/
+.btn-data {
+  display: flex;
+  width: 40%;
+  height: 50%;
+  flex-direction: column;
+  /* background: blue;*/
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  border: 1px solid #7c97a5;
+  margin: 50px 5px;
+}
+
+.btn_acc {
+  color: rgb(20, 20, 20);
+  margin: 5px 5px;
+  width: 120px;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 7px;
+  border-radius: 6px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(28, 110, 164) 0%,
+    rgb(35, 136, 203) 50%,
+    rgb(20, 78, 117) 100%
+  );
+  box-shadow: rgba(0, 0, 0, 0.31) 5px 4px 11px 5px;
+  border: 2px solid rgb(28, 110, 164);
+  display: inline-block;
+}
+.btn_acc:hover {
+  background: #1c6ea4;
+}
+.btn_acc:active {
+  background: #144e75;
+}
+/* Bloque de periodo de busqueda*/
+/*********************************/
+.con_per {
+  display: flex;
+  width: 95%;
+  max-height: 80px;
+  height: 10vw;
+  margin: 0px 0 0;
+  padding: 15px 0 0 15px;
+  background: blue;
+  flex-wrap: wrap;
+  background-image: linear-gradient(
+    to right,
+    rgb(28, 110, 164) 0%,
+    rgb(35, 136, 203) 50%,
+    rgb(20, 78, 117) 100%
+  );
+}
+.lbl-fech {
+  margin: 2px 8px;
+}
+.f-date {
+  width: 55px;
+}
+/****************Seccion de Datos*********************/
+.tab_dat {
+  width: 95%;
+  height: 250px;
+  margin: 0 0 0;
+  background: grey;
+}
+/* .dat-lis {
+  float: left;
+} */
+/* display: flex;
+width: 100vw;
+height: 250px;
+margin: 0, 150px, 10px, 0;
+background: grey; */

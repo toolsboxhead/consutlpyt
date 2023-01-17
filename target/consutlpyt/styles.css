@@ -1,0 +1,108 @@
+/* body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  } */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+  @font-face {
+    font-family: 'Fugaz One', cursive; ;
+    src: url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+  }
+  @import  url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+  
+  /* @import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css'); */
+  /* @import url('https://fonts.googleapis.com/css2famyli=lato:wght@100&display=swap'; */
+  
+  /* Variables */
+  
+  :root {
+    --color1 : rgb(219,144,.5);
+    --color2 : rgba(23,180,83,.877);
+    --fondo: #f2f2f2;
+    --titulos: 33px;
+    --subtitulos: 10px;
+    --margenes: 60px;
+    --espacios: 10px;
+    --space-ini: 20px;
+    --espacios-contenido:45px;
+    --link-1: #D65472;
+    --link-2: #37C5F0;
+    --link-3: gold;
+    --text: #18272F;
+    --counter: #30B67D;
+    --fondoimg: url(img/teclado.jpg)
+  
+  }
+  
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+      html,
+    body {
+      font-size: 18px;
+      /* background-color: #f5f6f7; */
+        background: var(--fondo);
+      
+    }
+
+ 
+
+ 
+  /* SECCION DE FILTROS */
+
+  .filtros{
+    display : flex;
+    justify-content : center;
+    background: darkcyan;
+    align-items: center;
+    height: 15vw;
+    width: 60vw;
+  }
+
+  .bxlis-all{
+    width: 550px;
+  }
+  .lab-cons{
+    width: 30px;
+    margin: auto;
+  }
+  .list-cons{
+    height: 150px;
+    width: 250px;
+  }
+
+ .btn-addsub {
+    width: 20px;
+    background: grey;
+  }
+  
+  .bxlis-sel{
+    width: 250px;
+
+  }
+
+  .list_sel {
+    height: 150px;
+    width: 550px;
+  }
+  .btn-data{
+    width: 100px;
+    background: blue;
+  }
+  /* SECCION DE DATOS */
+  .link_data{
+    display: flex;
+    justify-content : center;
+  }

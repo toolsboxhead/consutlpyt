@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+    <servlet-name>LoginStart</servlet-name>
+    <servlet-class>com.mytestemp.Servlet.LoginStart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>servlet</servlet-name>
+    <servlet-class>com.mytestemp.servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>consultores</servlet-name>
+    <servlet-class>com.mytestemp.Servlet.DataConsult</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>datareceitas</servlet-name>
+    <servlet-class>com.mytestemp.Servlet.DataConsultTable</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>datagraficas</servlet-name>
+    <servlet-class>com.mytestemp.Servlet.DataConsultGraph</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>consultores</servlet-name>
+    <url-pattern>/listcons</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>servlet</servlet-name>
+    <url-pattern>/api</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginStart</servlet-name>
+    <url-pattern>/LoginStart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>datareceitas</servlet-name>
+    <url-pattern>/receitas</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>datagraficas</servlet-name>
+    <url-pattern>/graficas</url-pattern>
+  </servlet-mapping>
+
+  <!-- The Usual Welcome File List -->
+   <welcome-file-list>
+    <welcome-file>LoginStart</welcome-file>
+  </welcome-file-list>  
+
+
+</web-app>
